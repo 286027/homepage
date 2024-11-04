@@ -1,9 +1,13 @@
 body{
  background:#5532E3;
 }
-.clock{
-
-margin-top:999px;  
+#clock{
+  font-size:48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #E0AF2E;
 }
 
 .user-welcome-text{
@@ -16,3 +20,69 @@ p{
   text-align:center;
    color:#E0AF2E;
 }
+/* Google Search */
+form{
+  width:100%;
+  max-width:600px;
+  margin:0 auto;
+}
+input{
+  width:100%;
+  font-size:32px;
+  margin:5px 0;
+  border:none;
+  padding:10px;
+  outline:none;
+  display:inline-block;
+  font-size:48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.search-bar{
+  width:80%;
+}
+.submit-button{
+  width:15%;
+  background:#5532E3;
+  color:#E0AF2E;
+}
+
+
+.bookmarks{
+    padding:30px;
+    clear:both;
+}
+.bookmarks i{
+    font-size:24px;
+    margin:0 30px;
+    color:#000;
+    line-height:32px;
+    transition:.2s;
+    text-decoration:none;
+    cursor: pointer;
+}
+.bookmarks i:hover{
+    color:#000;
+    font-size:28px;
+    line-height:26px;
+
+}
+
+
+#notes{
+  opacity:0;
+  transition:.2s;
+}
+.post-it{
+  width:200px;
+  height:200px;
+  resize: none;
+  margin:10px;
+  background:#F3F19D;
+  padding:15px;
+  border:none;
+  font-family:sans-serif;
+  outline:none;
+}
+
