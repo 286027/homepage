@@ -1,0 +1,18 @@
+body{
+ background:#5532E3;
+}
+.clock{
+
+margin-top:999px;  
+}
+
+.user-welcome-text{
+  font-size:48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+  text-align:center;
+   color:#E0AF2E;
+}
