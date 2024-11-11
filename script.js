@@ -83,3 +83,13 @@ function showCalculator(){
        showCalc = false;
    }
 }
+function showNTAS(){
+  if (showNTAS == false){
+      document.getElementById("ntas").style.opacity = 1;
+      showNTAS = true;
+  }
+  else if (showNTAS == true){
+      document.getElementById("ntas").style.opacity = 0;
+      showNTAS = false;
+  }
+}
