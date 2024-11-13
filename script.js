@@ -71,7 +71,7 @@ function showNote() {
     show = false;
   }
 }
-}
+
 var showCalc = false;
 function showCalculator(){
  if (showCalc == false){
